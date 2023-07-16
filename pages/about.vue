@@ -1,6 +1,6 @@
 <template>
     <div class="container" >
-        <h3>{{$t('about_title')}}</h3>
+        <h3>{{$t('about.about_title')}}</h3>
         <NuxtLink :to="localPath('/')">{{ $t('home_link') }}</NuxtLink>
     </div>
 </template>
